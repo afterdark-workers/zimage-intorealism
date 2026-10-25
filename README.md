@@ -1,6 +1,6 @@
 # Z-Image IntoRealism — RunPod Serverless worker
 
-A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **IntoRealism Z-Image**, a photorealistic Z-Image Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
+A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[IntoRealism Z-Image](https://civitai.com/models/1609320?modelVersionId=3354988)**, a photorealistic Z-Image Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
 
 Models are baked into the image, so a cold start does not re-download anything.
 
@@ -10,9 +10,9 @@ Models are baked into the image, so a cold start does not re-download anything.
 
 | File | Source | Size |
 |---|---|---|
-| `diffusion_models/zimage_intorealism_v10.safetensors` | Civitai 1609320 / version 3354988 | 5.7 GB |
-| `text_encoders/qwen_3_4b.safetensors` | Comfy-Org/Z-Image-Turbo (Apache 2.0) | 8.0 GB |
-| `vae/ae.safetensors` | Comfy-Org/Z-Image-Turbo | 0.3 GB |
+| `diffusion_models/zimage_intorealism_v10.safetensors` | [Civitai 1609320 / version 3354988](https://civitai.com/models/1609320?modelVersionId=3354988) | 5.7 GB |
+| `text_encoders/qwen_3_4b.safetensors` | [Comfy-Org/Z-Image-Turbo](https://huggingface.co/Comfy-Org/Z-Image-Turbo) (Apache 2.0) | 8.0 GB |
+| `vae/ae.safetensors` | [Comfy-Org/Z-Image-Turbo](https://huggingface.co/Comfy-Org/Z-Image-Turbo) | 0.3 GB |
 
 Just the model as its creator released it — no LoRAs, no extra nodes. All files are checked by SHA-256 at build time. ComfyUI is upgraded to 0.39.0.
 
