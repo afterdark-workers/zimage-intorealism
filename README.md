@@ -2,7 +2,7 @@
 
 > 🔞 **Adult (18+) · NSFW** — part of afterdark-workers, workers for uncensored adult image and video models.
 
-A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[IntoRealism Z-Image](https://civitai.com/models/1609320?modelVersionId=3354988)**, a photorealistic Z-Image Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
+A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[IntoRealism Z-Image](https://civitai.com/models/1609320?modelVersionId=3354988)** by [enzino](https://civitai.com/user/enzino), a photorealistic Z-Image Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
 
 Models are baked into the image, so a cold start does not re-download anything.
 
